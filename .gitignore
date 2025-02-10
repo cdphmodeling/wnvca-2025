@@ -1,3 +1,9 @@
+# Admin scripts
+/admin
+
+# HTML 
+*.html
+
 # History files
 .Rhistory
 .Rapp.history
