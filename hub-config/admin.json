@@ -1,0 +1,16 @@
+{
+    "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/admin-schema.json",
+    "name": "WNV California Forecasting Challenge 2025",
+    "maintainer": "California Department of Public Health",
+    "contact": {
+        "name": "CDPH Modeling Team",
+        "email": "modeling@cdph.ca.gov"
+    },
+    "repository": {
+        "host": "github",
+        "owner": "cdphmodeling",
+        "name": "wnvca-2025"
+    },
+    "file_format": ["csv"],
+    "timezone": "US/Pacific"
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "https://raw.githubusercontent.com/hubverse-org/schemas/main/v5.0.0/tasks-schema.json",
+  "rounds": [
+    {
+      "round_id_from_variable": true,
+      "round_id": "origin_date",
+      "round_name": "Round 1",
+      "model_tasks": [
+        {
+          "task_ids": {
+            "origin_date": {
+              "required": null,
+              "optional": ["2024-04-30", "2024-05-31", "2024-06-30", "2024-07-31", "2024-08-31", "2024-09-30", "2024-10-31", "2024-11-30"]
+            },
+            "location": {
+              "required": ["Fresno", "Kern", "Los Angeles", "Merced", "Orange", "Placer", "Riverside", "Sacramento", "San Bernardino", "San Joaquin", "Solano", "Stanislaus", "Tulare"],
+              "optional": null
+            },
+            "target_date": {
+              "required": null,
+              "optional": ["2024-05-31", "2024-06-30", "2024-07-31", "2024-08-31", "2024-09-30", "2024-10-31", "2024-11-30"]
+            },
+            "target": {
+              "required": [
+                "cases pm"
+              ],
+              "optional": null
+            }
+          },
+          "output_type": {
+            "cdf": {
+              "output_type_id": {
+                "required": [0, 1, 2, 3, 4, 5, 6, 8, 10, 15, 200]
+              },
+              "is_required": true,
+              "value": {
+                "type": "double",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          },
+          "target_metadata": [
+            {
+              "target_id": "cases pm",
+              "target_name": "Monthly reported symptomatic WNV cases per million",
+              "target_units": "rate per 1,000,000 population",
+              "target_keys": {
+                "target": "cases pm"
+              },
+              "target_type": "discrete",
+              "is_step_ahead": true,
+              "time_unit": "month"
+            }
+          ]
+        }
+      ],
+      "submissions_due": {
+        "relative_to": "origin_date",
+        "start": -30,
+        "end": 1
+      }
+    }
+  ],
+  "output_type_id_datatype": "double"
+}
