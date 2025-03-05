@@ -100,7 +100,7 @@ Any information about funding source(s) for the team or members of the team that
 
 We strongly recommend to validate the `model-metadata` before submitting it, as the pull request might take some time to perform the required tests (which might delay the submission process). To run the validation follow these steps:
 
-1. Create a fork of the `WNVCA-2025` repository and then clone the fork to your computer.
+1. Create a fork of the `wnvca-2025` repository and then clone the fork to your computer.
 2. Create a draft of the model metadata file for your model and place it in the `model-metadata` folder.
 3. Install the `hubValidations` package for R by running the following command from within an R session:
 
