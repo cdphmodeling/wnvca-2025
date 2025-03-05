@@ -124,7 +124,6 @@
         "model_name",
         "model_abbr",
         "model_contributors",
-        "license",
-        "model_details"
+        "license"
     ]
 }

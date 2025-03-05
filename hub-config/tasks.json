@@ -79,11 +79,9 @@
             }
           },
           "output_type": {
-            "pmf": {
+            "cdf": {
               "output_type_id": {
-                "required": [
-                  "zero"
-                ]
+                "required": [0]
               },
               "is_required": false,
               "value": {
