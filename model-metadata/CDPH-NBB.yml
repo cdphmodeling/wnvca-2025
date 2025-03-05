@@ -1,0 +1,29 @@
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "Negative binomial baseline model."
+model_abbr: "NBB"
+model_version: "2.0"
+model_contributors: [
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+website_url: "https://github.com/cdphmodeling/wnvca-2025"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: false
+methods: "Negative binomial model fitted with historic regional data."
+data_inputs: ""
+methods_long: >
+  "A negative binomial distribution was fitted to the historic number of cases in the region-month with a population log offset, following the form: 
+  Cases ~ (1|Month) + (1|Region) + offset(log(Population))"
+ensemble_of_models: false
+ensemble_of_hub_models: false
