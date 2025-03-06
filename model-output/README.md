@@ -46,7 +46,7 @@ The `output_type_id` column contains the identifiers for the prediction `value`,
 * `quantile`: this column must contain each one of the following entries for each region-month pair `0.01`, `0.05`, `0.1`, `0.2`, `0.3`, `0.4`, `0.5`, `0.6`, `0.7`, `0.8`, `0.9`, `0.95`, `0.99`
 * `cdf`: a single entry of `0` can be provided for each region-month and, if provided, is used to improve the precision in scoring the model
 
-An important note is that these ids should match the pattern exactly, so they should have not leading or trailing zeroes.
+An important note is that **these ids should match the pattern exactly**, so they should have not leading or trailing zeroes.
 
 ### `value`
 
