@@ -1,0 +1,45 @@
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "VBDS Risk Model."
+model_abbr: "VBDS"
+model_version: "1.1"
+model_contributors: [
+  {
+    "name": "Mary Beth Danforth",
+    "affiliation": "California Department of Public Health",
+    "email": "Mary.Danforth@cdph.ca.gov"
+  },
+  {
+    "name": "Andrea Lund",
+    "affiliation": "California Department of Public Health",
+    "email": "andrea.lund@cdph.ca.gov"
+  },
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  },
+  {
+    "name": "Vicky L. Kramer",
+    "affiliation": "California Department of Public Health",
+    "email": "Vicki.Kramer@cdph.ca.gov"
+  }
+]
+website_url: "http://westnile.ca.gov"
+license: "CC-BY-4.0"
+citation: "Danforth ME, Snyder RE, Lonstrup ETN, Barker CM, Kramer VL. Evaluation of the effectiveness of the California mosquito-borne virus surveillance & response plan, 2009-2018. PLoS Negl Trop Dis. 2022 May 9;16(5):e0010375. doi: 10.1371/journal.pntd.0010375. PMID: 35533207; PMCID: PMC9119623."
+team_funding: ""
+designated_model: true
+methods: "Negative binomial regression model on categorical levels of risk factors associated with WNV."
+data_inputs: "Temperature, mosquito counts, dead bird counts, chicken seroconversion."
+methods_long: >
+  "A bayesian negative binomial regression was fitted to risk factors associated with the transmission of WNV. 
+  This refression fitting is similar to the one described in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9119623/
+  but was done on monthly data instead of bi-weekly rolls to forecast three weeks ahead."
+ensemble_of_models: false
+ensemble_of_hub_models: false
