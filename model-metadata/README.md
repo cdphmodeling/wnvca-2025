@@ -112,7 +112,7 @@ remotes::install_github("Infectious-Disease-Modeling-Hubs/hubValidations")
 ``` r
 hubValidations::validate_model_metadata(
   hub_path=".", 
-  file_path="CDPH-AZO.yml"
+  file_path="CDPH-NBB.yml"
 )
 ```
 
@@ -123,13 +123,13 @@ If all is well, you should see output similar to the following:
 
 ```
 ✔ model-metadata-schema.json: File exists at path hub-config/model-metadata-schema.json.
-✔ CDPH-AZO.yml: File exists at path model-metadata/CDPH-AZO.yml.
-✔ CDPH-AZO.yml: Metadata file extension is "yml" or "yaml".
-✔ CDPH-AZO.yml: Metadata file directory name matches "model-metadata".
-✔ CDPH-AZO.yml: Metadata file contents are consistent with schema specifications.
-✔ CDPH-AZO.yml: Metadata file name matches the `model_id` specified within the metadata file.
+✔ CDPH-NBB.yml: File exists at path model-metadata/CDPH-AZO.yml.
+✔ CDPH-NBB.yml: Metadata file extension is "yml" or "yaml".
+✔ CDPH-NBB.yml: Metadata file directory name matches "model-metadata".
+✔ CDPH-NBB.yml: Metadata file contents are consistent with schema specifications.
+✔ CDPH-NBB.yml: Metadata file name matches the `model_id` specified within the metadata file.
 ```
 
 # Examples/Templates
 
-Please have a look at our [CDPH-AZO.yml](./CDPH-AZO.yml) and [CDPH-EQV.yml](./CDPH-EQV.yml) specification files as examples on how to setup your own!
+Please have a look at our [CDPH-NBB.yml](./CDPH-NBB.yml) specification files as examples on how to setup your own!
