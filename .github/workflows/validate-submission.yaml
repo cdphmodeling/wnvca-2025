@@ -2,9 +2,6 @@ name: Hub Submission Validation (R)
 
 on:
   workflow_dispatch:
-  push:
-    branches: ['main']
-    paths: ['model-output/**', '!**README**']
   pull_request:
     branches: main
     paths:
