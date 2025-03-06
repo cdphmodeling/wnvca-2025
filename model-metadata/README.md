@@ -132,4 +132,4 @@ If all is well, you should see output similar to the following:
 
 # Examples/Templates
 
-Please have a look at our [CDPH-NBB.yml](./CDPH-NBB.yml) specification files as examples on how to setup your own!
+Please have a look at our [CDPH-NBB.yml](./CDPH-NBB.yml) specification file as an example on how to setup your own!
