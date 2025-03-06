@@ -36,17 +36,24 @@ This is the last date of the forecast target for each month. This date should ma
 
 The output_type for this challenge can take two values: `quantile` (**required**) and `cdf` (optional):
 
-* `quantile`: These entries 
-* `cdf`: A single CDF entry per region-month is also accepted and strongly recommended. This probability should reflect the model's belief for "no WNV cases" reported in this region-month.
+* `quantile`: row entries for the quantiles of WNV cases predicted by the model.
+* `cdf`: a single CDF entry per region-month is also accepted and should reflect the model's belief for "no WNV cases" reported in this region-month.
 
 ### `output_type_id`
 
-The `output_type_id` column contains the identifiers for the level 
+The `output_type_id` column contains the identifiers for the prediction `value`, and they follow the form:
 
-* `quantiles`: this column must contain each one of the following entries for each region-month pair `0.01`, `0.025`, `0.05`, `0.1`, `0.15`, `0.2`, `0.25`, `0.3`, `0.35`, `0.4`, `0.45`, `0.5`, `0.55`, `0.6`, `0.65`, `0.7`, `0.75`, `0.8`, `0.85`, `0.9`, `0.95`, `0.975`, 0.99`
-* `cdf`: a single entry of `0` can be provided for each region-month
+* `quantile`: this column must contain each one of the following entries for each region-month pair `0.05`, `0.1`, `0.2`, `0.3`, `0.4`, `0.5`, `0.6`, `0.7`, `0.8`, `0.9`, `0.95` 
+* `cdf`: a single entry of `0` can be provided for each region-month and, if provided, is used to improve the precision in scoring the model
+
+An important note is that these ids should match the pattern exactly, so they should have not leading or trailing zeroes.
 
 ### `value`
+
+This column contains the actual predicted values for the outputs.
+
+* `quantile`: non-negative numbers with the predicted number of cases
+* `cdf`: decimal number between 0 and 1 representing the probability of no WNV cases reported
 
 ### `target`
 
