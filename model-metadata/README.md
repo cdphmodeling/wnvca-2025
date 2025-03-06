@@ -9,7 +9,7 @@ These instructions provide detail about the [data format](#Data-format) as well 
 
 ## Required variables
 
-This section describes each of the variables (keys) in the yaml document. Please order the variables as follows.
+This section describes each of the variables (keys) in the yaml document. Please order the variables as follows:
 
 ### team_name
 The name of your team that is less than 50 characters.
