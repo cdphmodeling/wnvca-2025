@@ -15,7 +15,7 @@ This is the data repository for the 2025 CDPH West Nile virus Forecasting Challe
 
 * **Dates**: The Challenge Period will begin April 2025 and will run until October 2025. Participants are currently asked to submit forecasts by: *April 30th*, *May 31*, *June 30*, *July 31*, *August 31*, *September 30*, and *October 31* (herein referred to as the Forecast Due Dates). All submissions should include forecasts for all remaining months of 2025 (through December).
 
-* **Prediction Targets**
+* **Prediction Targets**: The main target is the `quantile` distribution of cases in each region-month over the whole WNV, with the option for teams to submit the point probability of zero cases on the same spatiotemporal scale. Please refer to our [targets guide](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output#output_type) for more information.
 
 
 ## Data License and Reuse
