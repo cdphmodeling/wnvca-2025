@@ -11,7 +11,7 @@ This is the data repository for the 2025 CDPH West Nile virus Forecasting Challe
   * North San Joaquin: *San Joaquin*, *Stanislaus*, *Merced*
   * South San Joaquin: *Madera*, *Fresno*, *Kings*, *Tulare*, *Kern*
   * Southern California: *San Bernardino*, *Riverside*
-  * Greater LA: *Los Angeles*, *Orange*
+  * Los Angeles and Orange: *Los Angeles*, *Orange*
 
 * **Dates**: The Challenge Period will begin April 2025 and will run until October 2025. Participants are currently asked to submit forecasts by: *April 30th*, *May 31*, *June 30*, *July 31*, *August 31*, *September 30*, and *October 31* (herein referred to as the Forecast Due Dates). All submissions should include forecasts for all remaining months of 2025 (through December).
 
