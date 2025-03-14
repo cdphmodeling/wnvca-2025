@@ -18,6 +18,15 @@ This is the data repository for the 2025 CDPH West Nile virus Forecasting Challe
 * **Prediction Targets**: The main target is the `quantile` distribution of cases in each region-month over the whole WNV, with the option for teams to submit the point probability of zero cases on the same spatiotemporal scale. Please refer to our [targets guide](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output#output_type) for more information.
 
 
+## Participation 
+
+To participate in the Challenge, please follow these steps: 
+ * Contact modeling@cdph.ca.gov for instructions on how to request data and participate in the challenge. 
+ * Prepare metadata for your model. 
+ * Submit forecasts by the deadlines. 
+
+For information on submitting forecasts to this project, please see the [submission instructions](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output). Participating teams provide their forecasts in a quantile format that will be evaluated according with the [weighted interval score](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008618). 
+
 ## Data License and Reuse
 
 We are grateful to the teams who have generated forecasts and made their forecast data publicly available under different terms and licenses. By default, forecasts are available under the CC-BY 4.0 license, although teams may specify release under a different license in their metadata. You will find the licenses (when provided) within the metadata contained within model-specific folders in the data-forecasts directory. Please consult these licenses before using these data to ensure that you follow the terms under which these data were released. 
