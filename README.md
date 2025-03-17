@@ -6,17 +6,26 @@ This is the data repository for the 2025 CDPH West Nile virus Forecasting Challe
 ## Forecasts of Reported West Nile Virus Cases in Select Counties in California
 
 * **Regions**:
-  * North Sacramento Valley [N-ScV]: *Glenn*, *Butte*, *Colusa*, *Sutter*, *Yuba*
-  * South Sacramento Valley [S-ScV]: *Yolo*, *Sacramento*, *Placer*
-  * North San Joaquin [N-SnJ]: *San Joaquin*, *Stanislaus*, *Merced*
-  * South San Joaquin [S-SnJ]: *Madera*, *Fresno*, *Kings*, *Tulare*, *Kern*
-  * Southern California  [S-Cal]: *San Bernardino*, *Riverside*
-  * Greater LA [G-LAO]: *Los Angeles*, *Orange*
+  * North Sacramento Valley: *Glenn*, *Butte*, *Colusa*, *Sutter*, *Yuba*
+  * South Sacramento Valley: *Yolo*, *Sacramento*, *Placer*
+  * North San Joaquin: *San Joaquin*, *Stanislaus*, *Merced*
+  * South San Joaquin: *Madera*, *Fresno*, *Kings*, *Tulare*, *Kern*
+  * Southern California: *San Bernardino*, *Riverside*
+  * Los Angeles and Orange: *Los Angeles*, *Orange*
 
 * **Dates**: The Challenge Period will begin April 2025 and will run until October 2025. Participants are currently asked to submit forecasts by: *April 30th*, *May 31*, *June 30*, *July 31*, *August 31*, *September 30*, and *October 31* (herein referred to as the Forecast Due Dates). All submissions should include forecasts for all remaining months of 2025 (through December).
 
-* **Prediction Targets**
+* **Prediction Targets**: The main target is the `quantile` distribution of cases in each region-month over the whole WNV, with the option for teams to submit the point probability of zero cases on the same spatiotemporal scale. Please refer to our [targets guide](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output#output_type) for more information.
 
+
+## Participation 
+
+To participate in the Challenge, please follow these steps: 
+ * Contact modeling@cdph.ca.gov for instructions on how to request data and participate in the challenge. 
+ * Prepare metadata for your model. 
+ * Submit forecasts by the deadlines. 
+
+For information on submitting forecasts to this project, please see the [submission instructions](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output). Participating teams provide their forecasts in a quantile format that will be evaluated according with the [weighted interval score](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008618). 
 
 ## Data License and Reuse
 
