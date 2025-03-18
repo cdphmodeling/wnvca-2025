@@ -17,6 +17,9 @@ This is the data repository for the 2025 CDPH West Nile virus Forecasting Challe
 
 * **Prediction Targets**: The main target is the `quantile` distribution of cases in each region-month over the whole WNV, with the option for teams to submit the point probability of zero cases on the same spatiotemporal scale. Please refer to our [targets guide](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output#output_type) for more information.
 
+<p align="center">
+  <img src="./media/regionsMap.png" alt="WNVCA Logo" width="50%">
+</p>
 
 ## Participation 
 
