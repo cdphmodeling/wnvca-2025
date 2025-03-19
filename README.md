@@ -1,4 +1,4 @@
-# <img src="./media/WNVCA2025.png" alt="WNVCA Logo" width="40px">  WNV California Forecasting Challenge 2025 
+# <img src="./media/WNVCA2025.png" alt="WNVCA Logo" width="30px">  WNV California Forecasting Challenge 2025 
 
 This is the data repository for the 2025 CDPH West Nile virus Forecasting Challenge. This is an open (*by request*) forecasting challenge to predict monthly West Nile virus (WNV) total disease cases in select California counties in 2025 in the months of *May* through *December*.
 
