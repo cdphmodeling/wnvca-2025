@@ -1,4 +1,4 @@
-# <img src="./media/WNVCA2025.png" alt="WNVCA Logo" width="40px">  WNV California Forecasting Challenge 2025 
+# <img src="./media/WNVCA2025.png" alt="WNVCA Logo" width="30px">  WNV California Forecasting Challenge 2025 
 
 This is the data repository for the 2025 CDPH West Nile virus Forecasting Challenge. This is an open (*by request*) forecasting challenge to predict monthly West Nile virus (WNV) total disease cases in select California counties in 2025 in the months of *May* through *December*.
 
@@ -10,15 +10,15 @@ This is the data repository for the 2025 CDPH West Nile virus Forecasting Challe
   * South Sacramento Valley: *Yolo*, *Sacramento*, *Placer*
   * North San Joaquin: *San Joaquin*, *Stanislaus*, *Merced*
   * South San Joaquin: *Madera*, *Fresno*, *Kings*, *Tulare*, *Kern*
-  * Southern California: *San Bernardino*, *Riverside*
-  * Los Angeles and Orange: *Los Angeles*, *Orange*
+  * Inland Southern California: *San Bernardino*, *Riverside*
+  * Coastal Southern California: *Los Angeles*, *Orange*
 
 * **Dates**: The Challenge Period will begin April 2025 and will run until October 2025. Participants are currently asked to submit forecasts by: *April 30th*, *May 31*, *June 30*, *July 31*, *August 31*, *September 30*, and *October 31* (herein referred to as the Forecast Due Dates). All submissions should include forecasts for all remaining months of 2025 (through December).
 
-* **Prediction Targets**: The main target is the `quantile` distribution of cases in each region-month over the whole WNV, with the option for teams to submit the point probability of zero cases on the same spatiotemporal scale. Please refer to our [targets guide](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output#output_type) for more information.
+* **Prediction Targets**: Participants need to submit the `quantile` distribution of cases in each region-month over the whole WNV, along with the `cdf` point probability of zero cases on the same spatiotemporal scale. Please refer to our [targets guide](https://github.com/cdphmodeling/wnvca-2025/tree/main/model-output#output_type) for more information.
 
 <p align="center">
-  <img src="./media/regionsMap.png" alt="WNVCA Logo" width="50%">
+  <img src="./media/regionsMap.png" alt="WNVCA Logo" width="30%">
 </p>
 
 ## Participation 
