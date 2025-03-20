@@ -39,7 +39,7 @@ methods: "Negative binomial regression model on categorical levels of risk facto
 data_inputs: "Temperature, mosquito counts, dead bird counts, chicken seroconversion."
 methods_long: >
   "A bayesian negative binomial regression was fitted to risk factors associated with the transmission of WNV. 
-  This refression fitting is similar to the one described in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9119623/
+  This regression fitting is similar to the one described in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9119623/
   but was done on monthly data instead of bi-weekly rolls to forecast three weeks ahead."
 ensemble_of_models: false
 ensemble_of_hub_models: false
