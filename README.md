@@ -24,7 +24,8 @@ This is the data repository for the 2025 CDPH West Nile virus Forecasting Challe
 ## Participation 
 
 To participate in the Challenge, please follow these steps: 
- * Contact modeling@cdph.ca.gov for instructions on how to request data and participate in the challenge. 
+ * Contact modeling@cdph.ca.gov for instructions on how to request data and participate in the challenge.
+ * Have a look at the [mosquito and bird](https://github.com/vectorsurv/ca-wnv-forecasting-challenge/tree/main/2025) data provided by the [VectorSurv](https://barkerlab.ucdavis.edu/vectorsurv-team/) team.
  * Prepare metadata for your model. 
  * Submit forecasts by the deadlines. 
 
