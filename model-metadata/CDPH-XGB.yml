@@ -1,0 +1,31 @@
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "XGBoost Cascading Regressor"
+model_abbr: "XGB"
+model_version: "2.0"
+model_contributors: [
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+website_url: "https://github.com/cdphmodeling/wnvca-2025"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: false
+methods: "XGBoost algorithm used to predict the number of cases in a monthly basis."
+data_inputs: "Historic WNV cases, temperature, precipitation, mosquito counts, dead bird reports."
+methods_long: >
+  "Two predictors were trained upon the data. The first one is a binary classifier to detect if any cases are present, 
+  and returns the probabilities of P(C=0) and P(c>0). The second model is a regressor that returns the predicted number of cases
+  with their corresponding quantile levels. Finally, we evaluate both predictors on each data point and retrieve the full 
+  distribution with: P(c>0)*P(Q)."
+ensemble_of_models: false
+ensemble_of_hub_models: false
