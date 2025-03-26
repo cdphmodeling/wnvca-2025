@@ -13,7 +13,7 @@ details = details[with(details, order(as.POSIXct(mtime))), ]
 cFiles = rownames(details)
 sapply(cFiles, hubValidations::validate_model_metadata, hub_path='.')
 # Examine individual file -----------------------------------------------------
-file_path = 'CDPH-VBDS.yml'
+file_path = 'CDPH-MLP.yml'
 hubValidations::validate_model_metadata(
   file_path=file_path,
   hub_path='.'
