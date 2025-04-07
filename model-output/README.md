@@ -77,7 +77,7 @@ package](https://github.com/Infectious-Disease-Modeling-Hubs/hubValidations). Th
 Teams are highly encouraged to validate their data locally before doing their pull request. To do this, install the `hubValidations` package:
 
 ```R
-remotes::install_github("Infectious-Disease-Modeling-Hubs/hubValidations")
+install.packages("hubValidations", repos = c("https://hubverse-org.r-universe.dev", "https://cloud.r-project.org"))
 ```
 
 then set your working directory to the base repository path, and run:
