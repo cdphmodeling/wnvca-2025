@@ -1,0 +1,47 @@
+team_name: "Terarium"
+team_abbr: "Terarium at Uncharted Software"
+model_name: "Petri-net model"
+model_abbr: "PetriNet"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Lai Chung Liu",
+    "affiliation": "Uncharted Software",
+    "email": "nliu@uncharted.software",
+    "orcid": "0000-0002-7775-5933"
+  },
+  {
+    "name": "Pascale Proulx",
+    "affiliation": "Uncharted Software",
+    "email": "pproulx@uncharted.software",
+    "orcid": ""
+  },
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+website_url: "https://app.terarium.ai"
+license: "Apache-2.0"
+citation: "Proulx, P., J. Waese, M.W. Chang, et al. Towards Accessible, Flexible and Collaborative Scientific Modeling with Terarium. 1st Workshop on Human-Notebook Interactions, ACM CHI, Honolulu, HI, May 2024."
+team_funding: "DARPA ASKEM"
+designated_model: false
+methods: "Human-mosquito Petri-Net model trained on historical WNV prevalence, monthly mosquito abundance and infection data."
+data_inputs: "Historical WNV cases, US Census population estimates, mosquito counts, mosquito infection counts."
+methods_long: >
+  "
+  All modeling work is done using Terarium (https://app.terarium.ai), an AI-assisted modeling and simulation platform created by Uncharted Software. 
+  A Petri-net model is created from a system of ordinary differential equations representing a comparmental model (human SEIR and mosquito I states) using the MIRA Python package (https://github.com/gyorilab/mira).
+  Prior probability distribution of the model parameters are extracted from literature and US Census estimates.
+  The model is calibrated on historical datasets (2005-2023 WNV prevalence, 2016-2023 mosquito abundance and infection) by using Bayesian inference to estimate the posterior distribution on the model parameters. 
+  Using 2024-2025 mosquito abundance and infection data as input, a simulation for the 2025 WNV seasion is run for the time period of interest (April 2025 to December 2025).
+  The quantile values are computed based on the sampled trajectories over the simulation. 
+  Both the calibration and simulation are performed using the PyCIEMSS Python package (https://github.com/ciemss/pyciemss)."
+ensemble_of_models: false
+ensemble_of_hub_models: false
