@@ -1,0 +1,37 @@
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "Human Forecast - VBDS Team"
+model_abbr: "HumV"
+model_version: "2.0"
+model_contributors: [
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "VBDS Team",
+    "affiliation": "California Department of Public Health",
+    "email": "arbovirus@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+website_url: "https://github.com/cdphmodeling/wnvca-2024"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: false
+methods: "Human predictions made by the vector-borne disease team based on history of WNV disease in California."
+data_inputs: "Historic WNV cases (Mean, Median, Min, Max, 10th and 90th percentiles, and last 5 years of data per county-month), knowledge and experience of participant."
+methods_long: >
+  "The team was provided with statistics on the past 10 WNV seasons across the six regions in the challenge and was asked to respond the following questions:
+    The chance that at least one case will occur in the indicated month will be (from 0 to 1)
+    I am 75% sure that the number of cases in the indicated month will be greater than (can be fractional)
+    I am 75% sure that the number of cases in the indicated month will be less than  (can be fractional)
+  via Excel files, or a graphical user interface."
+ensemble_of_models: false
+ensemble_of_hub_models: false
