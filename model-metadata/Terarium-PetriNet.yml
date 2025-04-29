@@ -28,7 +28,7 @@ model_contributors: [
   }
 ]
 website_url: "https://app.terarium.ai"
-license: "Apache-2.0"
+license: "CC-BY-4.0"
 citation: "Proulx, P., J. Waese, M.W. Chang, et al. Towards Accessible, Flexible and Collaborative Scientific Modeling with Terarium. 1st Workshop on Human-Notebook Interactions, ACM CHI, Honolulu, HI, May 2024."
 team_funding: "DARPA ASKEM"
 designated_model: false
