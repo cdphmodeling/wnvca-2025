@@ -1,0 +1,24 @@
+team_name: California WNV Forecasting Challenge 2025 
+team_abbr: Hub
+model_name: Median ensemble from forecasts
+model_abbr: Ensemble
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Hector M. Sanchez C.",
+    "affiliation": "California Department of Public Health",
+    "email": "hector.sanchez-castellanos@cdph.ca.gov"
+  },
+  {
+    "name": "Tomas M. Leon",
+    "affiliation": "California Department of Public Health",
+    "email": "tomas.leon@cdph.ca.gov"
+  }
+]
+license: "CC-BY-4.0"
+designated_model: false
+data_inputs: Hub's monthly forecasts
+methods: Median ensemble from forecasts.
+methods_long: The median is calculated from the group of submitted forecasts for each quantile of the region-month sets.
+ensemble_of_models: true
+ensemble_of_hub_models: false
