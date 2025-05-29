@@ -21,4 +21,4 @@ data_inputs: Hub's monthly forecasts
 methods: Median ensemble from forecasts.
 methods_long: The median is calculated from the group of submitted forecasts for each quantile of the region-month sets.
 ensemble_of_models: true
-ensemble_of_hub_models: false
+ensemble_of_hub_models: true
