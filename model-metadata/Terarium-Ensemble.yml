@@ -1,7 +1,7 @@
 team_name: "Terarium at Uncharted Software"
 team_abbr: "Terarium"
 model_name: "Ensemble of two Petri-net models"
-model_abbr: "PetriNet_Ensemble"
+model_abbr: "Ensemble"
 model_version: "1.0"
 model_contributors: [
   {
