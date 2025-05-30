@@ -1,7 +1,7 @@
 team_name: "Terarium at Uncharted Software"
 team_abbr: "Terarium"
 model_name: "Ensemble of two Petri-net models"
-model_abbr: "PetriNet-Ensemble"
+model_abbr: "PetriNet_Ensemble"
 model_version: "1.0"
 model_contributors: [
   {
@@ -13,8 +13,7 @@ model_contributors: [
   {
     "name": "Pascale Proulx",
     "affiliation": "Uncharted Software",
-    "email": "pproulx@uncharted.software",
-    "orcid": ""
+    "email": "pproulx@uncharted.software"
   },
   {
     "name": "Hector M. Sanchez C.",

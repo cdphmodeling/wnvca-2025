@@ -13,8 +13,7 @@ model_contributors: [
   {
     "name": "Pascale Proulx",
     "affiliation": "Uncharted Software",
-    "email": "pproulx@uncharted.software",
-    "orcid": ""
+    "email": "pproulx@uncharted.software"
   },
   {
     "name": "Hector M. Sanchez C.",
