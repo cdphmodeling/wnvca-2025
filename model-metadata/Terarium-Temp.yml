@@ -1,7 +1,7 @@
 team_name: "Terarium at Uncharted Software"
 team_abbr: "Terarium"
 model_name: "Petri-net model with temperature dependence"
-model_abbr: "PetriNet_T"
+model_abbr: "Temp"
 model_version: "1.0"
 model_contributors: [
   {
