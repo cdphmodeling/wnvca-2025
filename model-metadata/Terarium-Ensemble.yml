@@ -1,7 +1,7 @@
 team_name: "Terarium at Uncharted Software"
 team_abbr: "Terarium"
-model_name: "Petri-net model"
-model_abbr: "PetriNet"
+model_name: "Ensemble of two Petri-net models"
+model_abbr: "Ensemble"
 model_version: "1.0"
 model_contributors: [
   {
@@ -38,8 +38,10 @@ methods_long: >
   All modeling work is done using Terarium (https://app.terarium.ai), an AI-assisted modeling and simulation platform created by Uncharted Software. 
   A Petri-net model is created from a system of ordinary differential equations representing a comparmental model (human SEIR and mosquito I states) using the MIRA Python package (https://github.com/gyorilab/mira).
   Prior probability distribution of the model parameters are extracted from literature and US Census estimates.
-  The model is calibrated on historical datasets (2005-2023 WNV prevalence, 2016-2023 mosquito abundance and infection) by using Bayesian inference to estimate the posterior distribution on the model parameters. 
-  Using 2024-2025 mosquito abundance and infection data as input, a simulation for the 2025 WNV seasion is run for the time period of interest (April 2025 to December 2025).
+  This is a linear ensemble of two models with weights: (1) PetriNet and (2) PetriNet-T. The weights are 0.26 and 0.74 respectively.
+  Both models is calibrated on historical datasets (2005-2023 WNV prevalence, 2016-2023 mosquito abundance and infection) by using Bayesian inference to estimate the posterior distribution on the model parameters. 
+  The second model also used 1895-2025 monthly average air temperature data from NOAA NCEI nClimDiv as part of the calibration.
+  A simulation for the 2025 WNV seasion is run for the time period of interest (April 2025 to December 2025) using 2024-2025 mosquito abundance and infection data and 2024-2025 monthly average air temperature data as input.
   The quantile values are computed based on the sampled trajectories over the simulation. 
   Both the calibration and simulation are performed using the PyCIEMSS Python package (https://github.com/ciemss/pyciemss)."
 ensemble_of_models: false

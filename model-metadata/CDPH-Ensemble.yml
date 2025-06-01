@@ -1,7 +1,7 @@
-team_name: California WNV Forecasting Challenge 2025 
-team_abbr: Hub
-model_name: Median ensemble from forecasts
-model_abbr: Ensemble
+team_name: "California Department of Public Health"
+team_abbr: "CDPH"
+model_name: "Ensemble"
+model_abbr: "Ensemble"
 model_version: "1.0"
 model_contributors: [
   {
@@ -15,10 +15,14 @@ model_contributors: [
     "email": "tomas.leon@cdph.ca.gov"
   }
 ]
+website_url: "https://github.com/cdphmodeling/wnvca-2025"
 license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
 designated_model: false
-data_inputs: Hub's monthly forecasts
-methods: Median ensemble from forecasts.
-methods_long: The median is calculated from the group of submitted forecasts for each quantile of the region-month sets.
+methods: "Median ensemble from all non-baseline CDPH models."
+data_inputs: "CDPH model forecasts."
+methods_long: >
+  "This ensemble is calculated from CDPH models: XGB, MLP, HumM, HumV, VBDS and an internal negative binomal model."
 ensemble_of_models: true
 ensemble_of_hub_models: true
