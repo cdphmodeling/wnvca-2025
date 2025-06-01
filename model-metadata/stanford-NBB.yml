@@ -1,4 +1,4 @@
-iteam_name: "Mordecai Lab at Stanford University"
+team_name: "Mordecai Lab at Stanford University"
 team_abbr: "stanford"
 model_name: "Negative Binomial Baseline"
 model_abbr: "NBB"
