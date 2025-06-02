@@ -1,0 +1,24 @@
+team_name: "Mordecai Lab at Stanford University"
+team_abbr: "stanford"
+model_name: "Negative Binomial Baseline"
+model_abbr: "NBB"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Mauricio Cruz-Loya",
+    "affiliation": "Stanford University",
+    "email": "cruzloya@stanford.edu"
+  }
+]
+website_url: "https://www.mordecailab.com/#about-marquee"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: true
+methods: ""
+data_inputs: "WNV case data"
+methods_long: "A negative binomial distribution was fit to the case data of all years for each region and month. In cases where the fit was not successful, a 
+Poisson distribution was used instead. For region-month combinations with zero observed cases in all years, a Poisson distribution with a small nonzero mean 
+was used."
+ensemble_of_models: false
+ensemble_of_hub_models: false
