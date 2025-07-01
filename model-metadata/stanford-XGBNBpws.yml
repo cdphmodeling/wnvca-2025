@@ -1,0 +1,27 @@
+team_name: "Mordecai Lab at Stanford University"
+team_abbr: "stanford"
+model_name: "XGBoost Negative Binomial Model (Past Weather and Vector Surveillance)"
+model_abbr: "XGBNBpws"
+model_version: "1.0"
+model_contributors: [
+  {
+    "name": "Mauricio Cruz-Loya",
+    "affiliation": "Stanford University",
+    "email": "cruzloya@stanford.edu"
+  },
+  {
+    "name": "Joshua Emilio Lazaro",
+    "affiliation": "Stanford University",
+    "email": "jelazaro@stanford.edu"
+  }
+]
+website_url: "https://www.mordecailab.com/#about-marquee"
+license: "CC-BY-4.0"
+citation: ""
+team_funding: ""
+designated_model: true
+methods: ""
+data_inputs: "WNV case data, ERA5 weather data, US Census, VectorSurv surveillance data"
+methods_long: "Negative binomial XGBoost model using region-level summaries of past weather (including variables like temperature, precipitation and humidity, among others) obtained from ERA5 and county-level population and age-sex distributions from the US Census as covariates. Weather covariates were included as lagged variables, and for selected covariates also as seasonal and/or annual summaries. This model also includes mosquito, bird and sentinel chicken vector surveillance data."
+ensemble_of_models: false
+ensemble_of_hub_models: false
