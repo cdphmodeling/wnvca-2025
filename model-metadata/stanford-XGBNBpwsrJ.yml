@@ -1,6 +1,6 @@
 team_name: "Mordecai Lab at Stanford University"
 team_abbr: "stanford"
-model_name: "XGBoost Negative Binomial Model (Past Weather) Region Specific"
+model_name: "XGBoost Negative Binomial Model (Past Weather and Vector Surveillance) Region Specific"
 model_abbr: "XGBNBpwsrJ"
 model_version: "1.0"
 model_contributors: [
